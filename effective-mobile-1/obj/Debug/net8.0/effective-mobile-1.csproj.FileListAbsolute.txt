@@ -1,0 +1,14 @@
+/home/sysory/Documents/effective-mobile/eff_mob_dotnet/effective-mobile-1/bin/Debug/net8.0/effective-mobile-1
+/home/sysory/Documents/effective-mobile/eff_mob_dotnet/effective-mobile-1/bin/Debug/net8.0/effective-mobile-1.deps.json
+/home/sysory/Documents/effective-mobile/eff_mob_dotnet/effective-mobile-1/bin/Debug/net8.0/effective-mobile-1.runtimeconfig.json
+/home/sysory/Documents/effective-mobile/eff_mob_dotnet/effective-mobile-1/bin/Debug/net8.0/effective-mobile-1.dll
+/home/sysory/Documents/effective-mobile/eff_mob_dotnet/effective-mobile-1/bin/Debug/net8.0/effective-mobile-1.pdb
+/home/sysory/Documents/effective-mobile/eff_mob_dotnet/effective-mobile-1/obj/Debug/net8.0/effective-mobile-1.GeneratedMSBuildEditorConfig.editorconfig
+/home/sysory/Documents/effective-mobile/eff_mob_dotnet/effective-mobile-1/obj/Debug/net8.0/effective-mobile-1.AssemblyInfoInputs.cache
+/home/sysory/Documents/effective-mobile/eff_mob_dotnet/effective-mobile-1/obj/Debug/net8.0/effective-mobile-1.AssemblyInfo.cs
+/home/sysory/Documents/effective-mobile/eff_mob_dotnet/effective-mobile-1/obj/Debug/net8.0/effective-mobile-1.csproj.CoreCompileInputs.cache
+/home/sysory/Documents/effective-mobile/eff_mob_dotnet/effective-mobile-1/obj/Debug/net8.0/effective-mobile-1.dll
+/home/sysory/Documents/effective-mobile/eff_mob_dotnet/effective-mobile-1/obj/Debug/net8.0/refint/effective-mobile-1.dll
+/home/sysory/Documents/effective-mobile/eff_mob_dotnet/effective-mobile-1/obj/Debug/net8.0/effective-mobile-1.pdb
+/home/sysory/Documents/effective-mobile/eff_mob_dotnet/effective-mobile-1/obj/Debug/net8.0/effective-mobile-1.genruntimeconfig.cache
+/home/sysory/Documents/effective-mobile/eff_mob_dotnet/effective-mobile-1/obj/Debug/net8.0/ref/effective-mobile-1.dll
