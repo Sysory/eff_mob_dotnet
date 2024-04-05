@@ -12,3 +12,4 @@
 /home/sysory/Documents/effective-mobile/eff_mob_dotnet/effective-mobile-1/obj/Debug/net8.0/effective-mobile-1.pdb
 /home/sysory/Documents/effective-mobile/eff_mob_dotnet/effective-mobile-1/obj/Debug/net8.0/effective-mobile-1.genruntimeconfig.cache
 /home/sysory/Documents/effective-mobile/eff_mob_dotnet/effective-mobile-1/obj/Debug/net8.0/ref/effective-mobile-1.dll
+/home/sysory/Documents/effective-mobile/eff_mob_dotnet/effective-mobile-1/obj/Debug/net8.0/effective-mobile-1.sourcelink.json
