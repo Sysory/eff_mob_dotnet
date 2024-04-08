@@ -1,4 +1,5 @@
-# from random import randint as rd
+FILE_NAME = "addresses.txt"
+
 from random import random
 """Файл для генерации входных данных
 (лог, содержащий ip адреса и время, сортировка по времени)"""
@@ -50,7 +51,7 @@ def main():
   entries.sort(key=timeDateSortKey)
 
   entries: list[str] = [x.formatted() for x in entries]
-  with (open("addresses.txt", "w")) as file:
+  with (open(FILE_NAME, "w")) as file:
     file.writelines(entries)
 
 if __name__ == "__main__":
