@@ -1,4 +1,5 @@
-﻿using System.Net;
+﻿using System.Collections;
+using System.Net;
 
 namespace effectivemobile {
     class MainProgramm {
@@ -16,17 +17,25 @@ namespace effectivemobile {
 
             // FileStream log = File.OpenRead(conf.props["file-log"]);
             
-            int c = 0;
-            using (StreamWriter output = new StreamWriter(conf.props["file-output"])) {
+            Hashtable ht = new Hashtable();
                 foreach(var line in File.ReadLines(conf.props["file-log"])) {
                     if (filter.Validate(line)) {
-                        c++;
-                        output.WriteLine(line);
+                        String ip = line.Split(':')[0];
+                        if (!ht.Contains(ip)) {
+                            ht.Add(ip, 1);
+                        } else {
+                            ht[ip] = (int?)ht[ip] + 1;
+                        }
                     }
+                }
+
+            using (StreamWriter output = new StreamWriter(conf.props["file-output"])) {
+                foreach (var key in ht.Keys) {
+                    output.Write($"{key} {ht[key]}\n");
                 }
                 output.Close();
             }
-            Console.WriteLine($"Done! {c}");
+            Console.WriteLine("Done!");
             return 0;
         }
     }

@@ -46,7 +46,7 @@ def timeDateSortKey(en: Entry) -> int:
   return key
 
 def main():
-  entries: list[Entry] = [Entry() for _ in range(100000)] #1e5
+  entries: list[Entry] = [Entry() for _ in range(100)] #1e5
   entries.sort(key=timeDateSortKey)
 
   entries: list[str] = [x.formatted() for x in entries]
